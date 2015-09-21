@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		A20963661BA9803000A06FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A20963651BA9803000A06FCF /* main.m */; };
 		A20963691BA9803000A06FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20963681BA9803000A06FCF /* AppDelegate.m */; };
-		A209636C1BA9803000A06FCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A209636B1BA9803000A06FCF /* ViewController.m */; };
 		A209636F1BA9803000A06FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A209636D1BA9803000A06FCF /* Main.storyboard */; };
 		A20963711BA9803000A06FCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20963701BA9803000A06FCF /* Images.xcassets */; };
 		A20963741BA9803000A06FCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A20963721BA9803000A06FCF /* LaunchScreen.xib */; };
 		A20963801BA9803000A06FCF /* Travel_PlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A209637F1BA9803000A06FCF /* Travel_PlannerTests.m */; };
+		A2146DB91BB029F500DDCA34 /* TPRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A2146DB51BB029F500DDCA34 /* TPRecord.m */; settings = {ASSET_TAGS = (); }; };
+		A2146DBA1BB029F500DDCA34 /* TPSorter.m in Sources */ = {isa = PBXBuildFile; fileRef = A2146DB81BB029F500DDCA34 /* TPSorter.m */; settings = {ASSET_TAGS = (); }; };
+		A2146DC21BB02A6B00DDCA34 /* TPTravelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2146DBD1BB02A6B00DDCA34 /* TPTravelCell.m */; settings = {ASSET_TAGS = (); }; };
+		A2146DC31BB02A6B00DDCA34 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = A2146DBF1BB02A6B00DDCA34 /* bus.png */; settings = {ASSET_TAGS = (); }; };
+		A2146DC41BB02A6B00DDCA34 /* flight.png in Resources */ = {isa = PBXBuildFile; fileRef = A2146DC01BB02A6B00DDCA34 /* flight.png */; settings = {ASSET_TAGS = (); }; };
+		A2146DC51BB02A6B00DDCA34 /* train.png in Resources */ = {isa = PBXBuildFile; fileRef = A2146DC11BB02A6B00DDCA34 /* train.png */; settings = {ASSET_TAGS = (); }; };
+		A2146DC91BB02ABF00DDCA34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2146DC81BB02ABF00DDCA34 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,23 @@
 		A20963651BA9803000A06FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A20963671BA9803000A06FCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A20963681BA9803000A06FCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A209636A1BA9803000A06FCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A209636B1BA9803000A06FCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A209636E1BA9803000A06FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A20963701BA9803000A06FCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A20963731BA9803000A06FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A20963791BA9803000A06FCF /* Travel PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Travel PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A209637E1BA9803000A06FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A209637F1BA9803000A06FCF /* Travel_PlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Travel_PlannerTests.m; sourceTree = "<group>"; };
+		A2146DB41BB029F500DDCA34 /* TPRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRecord.h; sourceTree = "<group>"; };
+		A2146DB51BB029F500DDCA34 /* TPRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRecord.m; sourceTree = "<group>"; };
+		A2146DB71BB029F500DDCA34 /* TPSorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSorter.h; sourceTree = "<group>"; };
+		A2146DB81BB029F500DDCA34 /* TPSorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSorter.m; sourceTree = "<group>"; };
+		A2146DBC1BB02A6B00DDCA34 /* TPTravelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPTravelCell.h; sourceTree = "<group>"; };
+		A2146DBD1BB02A6B00DDCA34 /* TPTravelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPTravelCell.m; sourceTree = "<group>"; };
+		A2146DBF1BB02A6B00DDCA34 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		A2146DC01BB02A6B00DDCA34 /* flight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flight.png; sourceTree = "<group>"; };
+		A2146DC11BB02A6B00DDCA34 /* train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = train.png; sourceTree = "<group>"; };
+		A2146DC71BB02ABF00DDCA34 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2146DC81BB02ABF00DDCA34 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +96,16 @@
 		A20963621BA9803000A06FCF /* Travel Planner */ = {
 			isa = PBXGroup;
 			children = (
+				A20963721BA9803000A06FCF /* LaunchScreen.xib */,
+				A209636D1BA9803000A06FCF /* Main.storyboard */,
 				A20963671BA9803000A06FCF /* AppDelegate.h */,
 				A20963681BA9803000A06FCF /* AppDelegate.m */,
-				A209636A1BA9803000A06FCF /* ViewController.h */,
-				A209636B1BA9803000A06FCF /* ViewController.m */,
-				A209636D1BA9803000A06FCF /* Main.storyboard */,
+				A2146DC61BB02ABF00DDCA34 /* Main */,
+				A2146DBB1BB02A6B00DDCA34 /* CustomCell */,
+				A2146DBE1BB02A6B00DDCA34 /* Images */,
+				A2146DB31BB029F500DDCA34 /* Record */,
+				A2146DB61BB029F500DDCA34 /* Sorting */,
 				A20963701BA9803000A06FCF /* Images.xcassets */,
-				A20963721BA9803000A06FCF /* LaunchScreen.xib */,
 				A20963631BA9803000A06FCF /* Supporting Files */,
 			);
 			path = "Travel Planner";
@@ -117,6 +135,52 @@
 				A209637E1BA9803000A06FCF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2146DB31BB029F500DDCA34 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				A2146DB41BB029F500DDCA34 /* TPRecord.h */,
+				A2146DB51BB029F500DDCA34 /* TPRecord.m */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		A2146DB61BB029F500DDCA34 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				A2146DB71BB029F500DDCA34 /* TPSorter.h */,
+				A2146DB81BB029F500DDCA34 /* TPSorter.m */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		A2146DBB1BB02A6B00DDCA34 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				A2146DBC1BB02A6B00DDCA34 /* TPTravelCell.h */,
+				A2146DBD1BB02A6B00DDCA34 /* TPTravelCell.m */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		A2146DBE1BB02A6B00DDCA34 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A2146DBF1BB02A6B00DDCA34 /* bus.png */,
+				A2146DC01BB02A6B00DDCA34 /* flight.png */,
+				A2146DC11BB02A6B00DDCA34 /* train.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A2146DC61BB02ABF00DDCA34 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A2146DC71BB02ABF00DDCA34 /* ViewController.h */,
+				A2146DC81BB02ABF00DDCA34 /* ViewController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2146DC31BB02A6B00DDCA34 /* bus.png in Resources */,
 				A209636F1BA9803000A06FCF /* Main.storyboard in Resources */,
+				A2146DC51BB02A6B00DDCA34 /* train.png in Resources */,
 				A20963741BA9803000A06FCF /* LaunchScreen.xib in Resources */,
+				A2146DC41BB02A6B00DDCA34 /* flight.png in Resources */,
 				A20963711BA9803000A06FCF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A209636C1BA9803000A06FCF /* ViewController.m in Sources */,
+				A2146DC91BB02ABF00DDCA34 /* ViewController.m in Sources */,
 				A20963691BA9803000A06FCF /* AppDelegate.m in Sources */,
+				A2146DBA1BB029F500DDCA34 /* TPSorter.m in Sources */,
+				A2146DB91BB029F500DDCA34 /* TPRecord.m in Sources */,
 				A20963661BA9803000A06FCF /* main.m in Sources */,
+				A2146DC21BB02A6B00DDCA34 /* TPTravelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +486,7 @@
 				A20963851BA9803000A06FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A20963861BA9803000A06FCF /* Build configuration list for PBXNativeTarget "Travel PlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +495,7 @@
 				A20963881BA9803000A06FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
